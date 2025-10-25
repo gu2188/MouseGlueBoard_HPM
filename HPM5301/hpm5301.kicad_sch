@@ -1,0 +1,254 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "8f3ebe5a-9170-406e-a9e7-67aaca7742ab")
+	(paper "A4")
+	(title_block
+		(title "HPM5301")
+		(date "2025-10-19")
+		(rev "V1.0")
+		(company "GU2188")
+	)
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 134.62 104.14) (xy 154.94 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f84d2f7-c600-4e6d-9c53-4cffbcaf2957")
+	)
+	(wire
+		(pts
+			(xy 134.62 88.9) (xy 154.94 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a173ba11-c371-4bda-89c1-e486c4f3b970")
+	)
+	(wire
+		(pts
+			(xy 134.62 100.33) (xy 154.94 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a53d941c-77f5-4fb6-938b-5edea5e32eac")
+	)
+	(wire
+		(pts
+			(xy 134.62 96.52) (xy 154.94 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cead2fac-c9f6-4ac2-9426-0b176f989d5c")
+	)
+	(wire
+		(pts
+			(xy 134.62 92.71) (xy 154.94 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5172ebd-4619-4b88-aa75-8ec1af71e9b5")
+	)
+	(sheet
+		(at 121.92 85.09)
+		(size 12.7 22.225)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "10f535f4-42f8-444e-ac16-3bad42b27a2f")
+		(property "Sheetname" "Power"
+			(at 121.92 84.3784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power.kicad_sch"
+			(at 121.92 107.8996 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "3V3" bidirectional
+			(at 134.62 92.71 0)
+			(uuid "979a56b3-47f8-4ac4-b00a-423f3b68a8cb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "D+" bidirectional
+			(at 134.62 96.52 0)
+			(uuid "85360997-3018-4347-8284-fe884197fa85")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "D-" bidirectional
+			(at 134.62 100.33 0)
+			(uuid "b7500dc6-6a09-41b6-963f-fbf14e445f66")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB_5V" bidirectional
+			(at 134.62 88.9 0)
+			(uuid "4c380244-e58e-4fea-b272-2f5cd4f480c2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GND" bidirectional
+			(at 134.62 104.14 0)
+			(uuid "cc2e1479-2736-4d76-943b-1a73a53dfe05")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "hpm5301"
+				(path "/8f3ebe5a-9170-406e-a9e7-67aaca7742ab"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 154.94 85.09)
+		(size 15.24 22.225)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5a381582-07b3-4d84-888b-0753d451e9e2")
+		(property "Sheetname" "IO"
+			(at 154.94 84.3784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "IO.kicad_sch"
+			(at 154.94 107.8996 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "3V3" bidirectional
+			(at 154.94 92.71 180)
+			(uuid "25ee259c-b5aa-41f9-a6f5-235c9eb46168")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DM-" bidirectional
+			(at 154.94 100.33 180)
+			(uuid "16dd9837-c4f5-490b-b873-418aa2a407fe")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DP+" bidirectional
+			(at 154.94 96.52 180)
+			(uuid "e647fc3c-1e86-43ae-879a-be1df1133c1e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GND" bidirectional
+			(at 154.94 104.14 180)
+			(uuid "2a13c4b6-5afd-4bab-bc02-b88bdc6d0d0e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "5V" bidirectional
+			(at 154.94 88.9 180)
+			(uuid "50bc7a99-d21c-4698-b9fc-736c4aef97a1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "hpm5301"
+				(path "/8f3ebe5a-9170-406e-a9e7-67aaca7742ab"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
