@@ -59,12 +59,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        [
-          "lib_footprint_mismatch|298094400|105029000|d526f57b-8fed-475b-a528-fcccf436502a|00000000-0000-0000-0000-000000000000",
-          "已确认"
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2
@@ -543,7 +538,7 @@
       "plot": "output/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": ".step",
       "svg": "",
       "vrml": ""
     },
