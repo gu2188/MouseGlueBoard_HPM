@@ -1,0 +1,9 @@
+*
+!.gitignore
+!*.kicad_pcb
+!*.kicad_sch
+!*.kicad_pro
+!*.kicad_jobset
+!*-table
+!lib
+!lib/**

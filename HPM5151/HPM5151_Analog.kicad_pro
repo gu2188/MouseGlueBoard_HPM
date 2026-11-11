@@ -188,6 +188,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 1,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.3,
           "td_maxheight": 1.0,
@@ -199,6 +200,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 1,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.3,
           "td_maxheight": 1.0,
@@ -210,6 +212,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 1,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.3,
           "td_maxheight": 1.0,
@@ -512,6 +515,7 @@
       "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
+      "same_local_global_power": "warning",
       "similar_label_and_power": "warning",
       "similar_labels": "warning",
       "similar_power": "warning",
@@ -559,8 +563,8 @@
     "meta": {
       "version": 5
     },
-    "net_colors": null,
-    "netclass_assignments": null,
+    "net_colors": {},
+    "netclass_assignments": {},
     "netclass_patterns": []
   },
   "pcbnew": {
@@ -633,12 +637,102 @@
           "label": "DNP",
           "name": "${DNP}",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "DK_Datasheet_Link",
+          "name": "DK_Datasheet_Link",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "DK_Detail_Page",
+          "name": "DK_Detail_Page",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description_1",
+          "name": "Description_1",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Digi-Key_PN",
+          "name": "Digi-Key_PN",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Family",
+          "name": "Family",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC Part",
+          "name": "LCSC Part",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC Part Name",
+          "name": "LCSC Part Name",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MPN",
+          "name": "MPN",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer",
+          "name": "Manufacturer",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer Part",
+          "name": "Manufacturer Part",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Status",
+          "name": "Status",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Supplier",
+          "name": "Supplier",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Supplier Part",
+          "name": "Supplier Part",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "描述",
+          "name": "Description",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": false,
-      "name": "Grouped By Value",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -695,7 +789,7 @@
         "uuid": "8ed38441-7d4e-4e89-870f-07e11c6dce38"
       }
     ],
-    "used_designators": "U1-42,R1-94,#FLG1-3,J1-2,#PWR1-202,D1,C1-111,Y1,TP1-34,L1-3,H1-8",
+    "used_designators": "#FLG1-3,#PWR1-202,C1-111,D1-2,H1-8,J1-2,L1-5,R1-94,TP1-34,U1-42,Y1",
     "variants": []
   },
   "sheets": [
@@ -718,6 +812,18 @@
     [
       "4d2222a3-5a6a-40ae-9bd9-2f94da79aa98",
       "CONNECTOR"
+    ],
+    [
+      "59da6ab7-6e3e-4a74-ad19-720b2c2fa73c",
+      "tps7a4901"
+    ],
+    [
+      "b1bca6b7-a374-486e-878b-981bee179554",
+      "TPS62A03_${VOUT}"
+    ],
+    [
+      "c61f0332-ac88-4893-9d25-51ac0af810f2",
+      "TPS62A03_${VOUT}"
     ]
   ],
   "text_variables": {},
