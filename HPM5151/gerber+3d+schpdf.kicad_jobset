@@ -1,0 +1,559 @@
+{
+  "jobs": [
+    {
+      "description": "",
+      "id": "db3227ef-4670-4dc0-943f-733c1ec82a5a",
+      "settings": {
+        "board_only": false,
+        "board_outlines_chaining_epsilon": 0.01,
+        "cut_vias_in_body": true,
+        "description": "",
+        "export_board_body": true,
+        "export_components": true,
+        "export_inner_copper": false,
+        "export_pads": true,
+        "export_silkscreen": true,
+        "export_soldermask": true,
+        "export_tracks": false,
+        "export_zones": false,
+        "fill_all_vias": false,
+        "format": "step",
+        "fuse_shapes": false,
+        "include_dnp": false,
+        "include_unspecified": true,
+        "occt_format": 0,
+        "optimize_step": true,
+        "output_filename": "",
+        "overwrite": false,
+        "subst_models": true,
+        "use_defined_origin": false,
+        "use_drill_origin": false,
+        "use_grid_origin": true,
+        "use_pcb_center_origin": false,
+        "user_origin.x": 66.2686,
+        "user_origin.y": 59.2614,
+        "vrml_model_dir": "",
+        "vrml_relative_paths": false
+      },
+      "type": "pcb_export_3d"
+    },
+    {
+      "description": "",
+      "id": "24aee4a5-9e90-48b7-b961-5458c52453d9",
+      "settings": {
+        "black_and_white": false,
+        "create_gerber_job_file": true,
+        "crossout_dnp_footprints_on_fab_layers": true,
+        "description": "",
+        "disable_aperture_macros": false,
+        "drawing_sheet": "",
+        "drill_shape": "full",
+        "hide_dnp_footprints_on_fab_layers": false,
+        "include_netlist_attributes": true,
+        "layers": [
+          "F.Cu",
+          "In1.Cu",
+          "In2.Cu",
+          "In3.Cu",
+          "In4.Cu",
+          "In5.Cu",
+          "In6.Cu",
+          "In7.Cu",
+          "In8.Cu",
+          "In9.Cu",
+          "In10.Cu",
+          "In11.Cu",
+          "In12.Cu",
+          "In13.Cu",
+          "In14.Cu",
+          "In15.Cu",
+          "In16.Cu",
+          "In17.Cu",
+          "In18.Cu",
+          "In19.Cu",
+          "In20.Cu",
+          "In21.Cu",
+          "In22.Cu",
+          "In23.Cu",
+          "In24.Cu",
+          "In25.Cu",
+          "In26.Cu",
+          "In27.Cu",
+          "In28.Cu",
+          "In29.Cu",
+          "In30.Cu",
+          "B.Cu",
+          "F.Paste",
+          "B.Paste",
+          "F.SilkS",
+          "B.SilkS",
+          "F.Mask",
+          "B.Mask",
+          "Edge.Cuts"
+        ],
+        "layers_to_include_on_all_layers": [],
+        "mirror": false,
+        "negative": false,
+        "output_filename": "",
+        "plot_drawing_sheet": false,
+        "plot_footprint_values": true,
+        "plot_pad_numbers": false,
+        "plot_ref_des": true,
+        "precision": 6,
+        "sketch_dnp_footprints_on_fab_layers": true,
+        "sketch_pads_on_fab_layers": false,
+        "subtract_solder_mask_from_silk": true,
+        "use_drill_origin": true,
+        "use_protel_file_extension": false,
+        "use_x2_format": true
+      },
+      "type": "pcb_export_gerbers"
+    },
+    {
+      "description": "",
+      "id": "49023c29-0da7-4e00-b446-886845ffcc81",
+      "settings": {
+        "description": "",
+        "drill_origin": "plot",
+        "excellon.combine_pth_npth": false,
+        "excellon.minimal_header": false,
+        "excellon.mirror_y": false,
+        "excellon.oval_drill_route": true,
+        "format": "gerber",
+        "generate_map": false,
+        "gerber_precision": 5,
+        "map_format": "pdf",
+        "output_dir": "",
+        "units": "in",
+        "zero_format": "decimal"
+      },
+      "type": "pcb_export_drill"
+    },
+    {
+      "description": "导出钢网",
+      "id": "0e6c86d7-1981-454d-8c26-cff224f15182",
+      "settings": {
+        "black_and_white": true,
+        "create_gerber_job_file": true,
+        "crossout_dnp_footprints_on_fab_layers": true,
+        "description": "",
+        "disable_aperture_macros": false,
+        "drawing_sheet": "",
+        "drill_shape": "full",
+        "hide_dnp_footprints_on_fab_layers": false,
+        "include_netlist_attributes": true,
+        "layers": [
+          "B.Paste",
+          "In30.Cu",
+          "In29.Cu",
+          "In28.Cu",
+          "In27.Cu",
+          "In26.Cu",
+          "In25.Cu",
+          "In24.Cu",
+          "In23.Cu",
+          "In22.Cu",
+          "In21.Cu",
+          "In20.Cu",
+          "In19.Cu",
+          "In18.Cu",
+          "In17.Cu",
+          "In16.Cu",
+          "In15.Cu",
+          "In14.Cu",
+          "In13.Cu",
+          "In12.Cu",
+          "In11.Cu",
+          "In10.Cu",
+          "In9.Cu",
+          "In8.Cu",
+          "In7.Cu",
+          "In6.Cu",
+          "In5.Cu",
+          "F.Paste"
+        ],
+        "layers_to_include_on_all_layers": [],
+        "mirror": false,
+        "negative": false,
+        "output_filename": "",
+        "plot_drawing_sheet": false,
+        "plot_footprint_values": true,
+        "plot_pad_numbers": false,
+        "plot_ref_des": true,
+        "precision": 6,
+        "sketch_dnp_footprints_on_fab_layers": true,
+        "sketch_pads_on_fab_layers": false,
+        "subtract_solder_mask_from_silk": false,
+        "use_drill_origin": true,
+        "use_protel_file_extension": false,
+        "use_x2_format": true
+      },
+      "type": "pcb_export_gerbers"
+    },
+    {
+      "description": "",
+      "id": "cc4fec42-3b03-4e33-b93e-ffa314a30ef4",
+      "settings": {
+        "black_and_white": false,
+        "color_theme": "KiCad Default",
+        "description": "",
+        "drawing_sheet": "",
+        "format": "pdf",
+        "hpgl_page_size": "default",
+        "hpgl_pen_size": 1.0,
+        "hpgl_plot_origin": "A3",
+        "min_pen_width": 847,
+        "output_dir": "",
+        "page_size": "auto",
+        "pdf_hierarchical_links": true,
+        "pdf_metadata": false,
+        "pdf_property_popups": true,
+        "plot_all": true,
+        "plot_drawing_sheet": true,
+        "use_background_color": true
+      },
+      "type": "sch_export_plot_pdf"
+    },
+    {
+      "description": "",
+      "id": "475b088d-70be-4ec3-8553-facd212aa324",
+      "settings": {
+        "bom_format_preset_name": "CSV",
+        "bom_preset_name": "",
+        "description": "",
+        "exclude_dnp": true,
+        "field_delimiter": ",",
+        "fields_group_by": [
+          "Value",
+          "accuracy",
+          "Footprint",
+          "LCSC",
+          "inHOME"
+        ],
+        "fields_labels": [
+          "Reference",
+          "Value",
+          "accuracy",
+          "Footprint",
+          "Datasheet",
+          "Description",
+          "Qty",
+          "#",
+          "Category",
+          "DK_Datasheet_Link",
+          "DK_Detail_Page",
+          "Description_1",
+          "Digi-Key_PN",
+          "Family",
+          "LCSC",
+          "MPN",
+          "Manufacturer",
+          "Status",
+          "inHOME"
+        ],
+        "fields_ordered": [
+          "Reference",
+          "Value",
+          "accuracy",
+          "Footprint",
+          "__Datasheet",
+          "__Description",
+          "${QUANTITY}",
+          "__${ITEM_NUMBER}",
+          "__Category",
+          "__DK_Datasheet_Link",
+          "__DK_Detail_Page",
+          "__Description_1",
+          "__Digi-Key_PN",
+          "__Family",
+          "LCSC",
+          "__MPN",
+          "__Manufacturer",
+          "__Status",
+          "inHOME"
+        ],
+        "filter_string": "",
+        "include_excluded_from_bom": false,
+        "keep_line_breaks": false,
+        "keep_tabs": false,
+        "output_filename": "bom.csv",
+        "ref_delimiter": ",",
+        "ref_range_delimiter": "",
+        "sort_asc": true,
+        "sort_field": "Reference",
+        "string_delimiter": "\""
+      },
+      "type": "sch_export_bom"
+    },
+    {
+      "description": "",
+      "id": "9b207776-34ce-415a-b0e0-6540a57c108f",
+      "settings": {
+        "bg_style": "default",
+        "description": "",
+        "floor": false,
+        "format": "png",
+        "height": 2160,
+        "light_bottom_intensity": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "light_camera_intensity": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "light_side_elevation": 60,
+        "light_side_intensity": [
+          0.5,
+          0.5,
+          0.5
+        ],
+        "light_top_intensity": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "output_filename": "TOP.png",
+        "pan_x": 0.0,
+        "pan_y": 0.0,
+        "pan_z": 0.0,
+        "perspective": false,
+        "pivot_x": 0.0,
+        "pivot_y": 0.0,
+        "pivot_z": 0.0,
+        "quality": "high",
+        "rotation_x": 0.0,
+        "rotation_y": 0.0,
+        "rotation_z": 0.0,
+        "side": "top",
+        "width": 3840,
+        "zoom": 0.8
+      },
+      "type": "pcb_render"
+    },
+    {
+      "description": "",
+      "id": "667de92f-439f-4fee-868a-606582baae15",
+      "settings": {
+        "bg_style": "default",
+        "description": "",
+        "floor": false,
+        "format": "png",
+        "height": 2160,
+        "light_bottom_intensity": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "light_camera_intensity": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "light_side_elevation": 60,
+        "light_side_intensity": [
+          0.5,
+          0.5,
+          0.5
+        ],
+        "light_top_intensity": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "output_filename": "BUTTON.png",
+        "pan_x": 0.0,
+        "pan_y": 0.0,
+        "pan_z": 0.0,
+        "perspective": false,
+        "pivot_x": 0.0,
+        "pivot_y": 0.0,
+        "pivot_z": 0.0,
+        "quality": "high",
+        "rotation_x": 0.0,
+        "rotation_y": 0.0,
+        "rotation_z": 0.0,
+        "side": "bottom",
+        "width": 3840,
+        "zoom": 0.8
+      },
+      "type": "pcb_render"
+    },
+    {
+      "description": "",
+      "id": "91271916-2c33-4eb5-9c0d-ea289177fc3e",
+      "settings": {
+        "bg_style": "default",
+        "description": "",
+        "floor": false,
+        "format": "png",
+        "height": 2160,
+        "light_bottom_intensity": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "light_camera_intensity": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "light_side_elevation": 60,
+        "light_side_intensity": [
+          0.5,
+          0.5,
+          0.5
+        ],
+        "light_top_intensity": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "output_filename": "RIGHT.png",
+        "pan_x": 0.0,
+        "pan_y": 0.0,
+        "pan_z": 0.0,
+        "perspective": false,
+        "pivot_x": 0.0,
+        "pivot_y": 0.0,
+        "pivot_z": 0.0,
+        "quality": "high",
+        "rotation_x": 0.0,
+        "rotation_y": 0.0,
+        "rotation_z": 0.0,
+        "side": "left",
+        "width": 3840,
+        "zoom": 0.8
+      },
+      "type": "pcb_render"
+    },
+    {
+      "description": "",
+      "id": "e75d43ed-ad99-419a-94e8-386a5ab6b9a8",
+      "settings": {
+        "bg_style": "default",
+        "description": "",
+        "floor": false,
+        "format": "png",
+        "height": 2160,
+        "light_bottom_intensity": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "light_camera_intensity": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "light_side_elevation": 60,
+        "light_side_intensity": [
+          0.5,
+          0.5,
+          0.5
+        ],
+        "light_top_intensity": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "output_filename": "1.png",
+        "pan_x": 0.0,
+        "pan_y": 0.0,
+        "pan_z": 0.0,
+        "perspective": true,
+        "pivot_x": 0.0,
+        "pivot_y": 0.0,
+        "pivot_z": 0.0,
+        "quality": "high",
+        "rotation_x": -55.0,
+        "rotation_y": 0.0,
+        "rotation_z": 65.0,
+        "side": "top",
+        "width": 3840,
+        "zoom": 0.8
+      },
+      "type": "pcb_render"
+    },
+    {
+      "description": "",
+      "id": "49ecb5ea-7e92-4776-b727-3a9fbbc5a941",
+      "settings": {
+        "description": "",
+        "exclude_dnp": false,
+        "exclude_footprints_with_th": false,
+        "format": "csv",
+        "gerber_board_edge": true,
+        "negate_bottom_x": false,
+        "output_filename": " .csv",
+        "side": "both",
+        "single_file": false,
+        "smd_only": false,
+        "units": "mm",
+        "use_drill_place_file_origin": true
+      },
+      "type": "pcb_export_pos"
+    }
+  ],
+  "meta": {
+    "version": 1
+  },
+  "outputs": [
+    {
+      "description": "模型+渲染图+原理图",
+      "id": "879871a0-50b8-413e-a4d6-0336c824db64",
+      "only": [
+        "db3227ef-4670-4dc0-943f-733c1ec82a5a",
+        "cc4fec42-3b03-4e33-b93e-ffa314a30ef4",
+        "9b207776-34ce-415a-b0e0-6540a57c108f",
+        "667de92f-439f-4fee-868a-606582baae15",
+        "91271916-2c33-4eb5-9c0d-ea289177fc3e",
+        "e75d43ed-ad99-419a-94e8-386a5ab6b9a8"
+      ],
+      "settings": {
+        "output_path": "work flow\\"
+      },
+      "type": "folder"
+    },
+    {
+      "description": "生成gerber",
+      "id": "52fef5b0-e584-4d1f-a8bb-8962572477cb",
+      "only": [
+        "24aee4a5-9e90-48b7-b961-5458c52453d9",
+        "49023c29-0da7-4e00-b446-886845ffcc81"
+      ],
+      "settings": {
+        "output_path": "work flow\\gerber"
+      },
+      "type": "folder"
+    },
+    {
+      "description": "钢网+bom+定位",
+      "id": "ebd9d1ec-0260-4740-8e9e-72692345c1fb",
+      "only": [
+        "0e6c86d7-1981-454d-8c26-cff224f15182",
+        "475b088d-70be-4ec3-8553-facd212aa324",
+        "49ecb5ea-7e92-4776-b727-3a9fbbc5a941"
+      ],
+      "settings": {
+        "output_path": "work flow\\其他生产资料"
+      },
+      "type": "folder"
+    },
+    {
+      "description": "生成gerber压缩包",
+      "id": "ccc95ffc-3337-487e-abd1-52c2b12eaf70",
+      "only": [
+        "24aee4a5-9e90-48b7-b961-5458c52453d9",
+        "49023c29-0da7-4e00-b446-886845ffcc81"
+      ],
+      "settings": {
+        "format": "zip",
+        "output_path": "work flow\\gerber\\gerber.zip"
+      },
+      "type": "archive"
+    }
+  ]
+}

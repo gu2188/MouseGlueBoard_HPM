@@ -1,0 +1,1811 @@
+(kicad_symbol_lib
+  (version 20211014)
+  (generator export)
+  (symbol "PRTR5V0U2X_C2827688_C2827688"
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "U"
+      (id 0)
+      (at 0 12.70 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Value"
+      "PRTR5V0U2X_C2827688"
+      (id 1)
+      (at 0 -10.16 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Footprint"
+      "EasyEDA:PRTR5V0U2X_C2827688_C2827688"
+      (id 2)
+      (at 0 -12.70 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Datasheet"
+      "https://item.szlcsc.com/datasheet/PRTR5V0U2X_C2827688/2973370.html"
+      (id 3)
+      (at 0 -15.24 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Description"
+      "PRTR5V0U2X_C2827688 SOT-143-4_L2.9-W1.3-P1.92-LS2.4-BL"
+      (id 4)
+      (at 0 -17.78 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "LCSC Part"
+      "C2827688"
+      (id 5)
+      (at 0 -20.32 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (symbol "PRTR5V0U2X_C2827688_C2827688_0_1"
+    (polyline
+      (pts
+        (xy -3.3020 3.0480)
+        (xy -3.8100 2.5400)
+        (xy -6.3500 2.5400)
+        (xy -6.8580 2.0320)
+      )
+      (stroke (width 0.2540) (type default))
+      (fill (type none))
+    )
+    (polyline
+      (pts
+        (xy 0.5080 5.0800)
+        (xy -3.0480 5.0800)
+      )
+      (stroke (width 0.2540) (type default))
+      (fill (type none))
+    )
+    (polyline
+      (pts
+        (xy 5.5880 5.0800)
+        (xy 2.0320 5.0800)
+      )
+      (stroke (width 0.2540) (type default))
+      (fill (type none))
+    )
+    (polyline
+      (pts
+        (xy 5.5880 0.0000)
+        (xy 2.0320 0.0000)
+      )
+      (stroke (width 0.2540) (type default))
+      (fill (type none))
+    )
+    (polyline
+      (pts
+        (xy 0.5080 0.0000)
+        (xy -3.0480 0.0000)
+      )
+      (stroke (width 0.2540) (type default))
+      (fill (type none))
+    )
+    (polyline
+      (pts
+        (xy 3.8100 5.0800)
+        (xy 3.8100 6.3500)
+        (xy -1.2700 6.3500)
+        (xy -1.2700 5.0800)
+      )
+      (stroke (width 0.2540) (type default))
+      (fill (type none))
+    )
+    (polyline
+      (pts
+        (xy -1.2700 6.3500)
+        (xy -5.0800 6.3500)
+        (xy -5.0800 2.5400)
+      )
+      (stroke (width 0.2540) (type default))
+      (fill (type none))
+    )
+    (polyline
+      (pts
+        (xy -5.0800 0.0000)
+        (xy -5.0800 -3.8100)
+        (xy -1.2700 -3.8100)
+        (xy -1.2700 -2.5400)
+      )
+      (stroke (width 0.2540) (type default))
+      (fill (type none))
+    )
+    (polyline
+      (pts
+        (xy -1.2700 -3.8100)
+        (xy 3.8100 -3.8100)
+        (xy 3.8100 -2.5400)
+      )
+      (stroke (width 0.2540) (type default))
+      (fill (type none))
+    )
+    (polyline
+      (pts
+        (xy -1.2700 0.0000)
+        (xy -1.2700 2.5400)
+      )
+      (stroke (width 0.2540) (type default))
+      (fill (type none))
+    )
+    (polyline
+      (pts
+        (xy 3.8100 0.0000)
+        (xy 3.8100 2.5400)
+      )
+      (stroke (width 0.2540) (type default))
+      (fill (type none))
+    )
+    (polyline
+      (pts
+        (xy -1.2700 0.7620)
+        (xy 7.6200 0.7620)
+        (xy 7.6200 -3.8100)
+      )
+      (stroke (width 0.2540) (type default))
+      (fill (type none))
+    )
+    (polyline
+      (pts
+        (xy 3.8100 1.7780)
+        (xy 7.6200 1.7780)
+        (xy 7.6200 6.3500)
+      )
+      (stroke (width 0.2540) (type default))
+      (fill (type none))
+    )
+    (polyline
+      (pts
+        (xy -3.3020 0.0000)
+        (xy -5.0800 2.5400)
+        (xy -6.8580 0.0000)
+        (xy -3.3020 0.0000)
+      )
+      (stroke (width 0.2540) (type default))
+      (fill (type background))
+    )
+    (polyline
+      (pts
+        (xy 0.5080 2.5400)
+        (xy -1.2700 5.0800)
+        (xy -3.0480 2.5400)
+        (xy 0.5080 2.5400)
+      )
+      (stroke (width 0.2540) (type default))
+      (fill (type background))
+    )
+    (polyline
+      (pts
+        (xy 5.5880 2.5400)
+        (xy 3.8100 5.0800)
+        (xy 2.0320 2.5400)
+        (xy 5.5880 2.5400)
+      )
+      (stroke (width 0.2540) (type default))
+      (fill (type background))
+    )
+    (polyline
+      (pts
+        (xy 5.5880 -2.5400)
+        (xy 3.8100 0.0000)
+        (xy 2.0320 -2.5400)
+        (xy 5.5880 -2.5400)
+      )
+      (stroke (width 0.2540) (type default))
+      (fill (type background))
+    )
+    (polyline
+      (pts
+        (xy 0.5080 -2.5400)
+        (xy -1.2700 0.0000)
+        (xy -3.0480 -2.5400)
+        (xy 0.5080 -2.5400)
+      )
+      (stroke (width 0.2540) (type default))
+      (fill (type background))
+    )
+      (pin passive line
+        (at -5.08 -5.08 90)
+        (length 2.54)
+        (name "1" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line
+        (at 7.62 -5.08 90)
+        (length 2.54)
+        (name "2" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line
+        (at 7.62 7.62 270)
+        (length 2.54)
+        (name "3" (effects (font (size 1.27 1.27))))
+        (number "3" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line
+        (at -5.08 7.62 270)
+        (length 2.54)
+        (name "4" (effects (font (size 1.27 1.27))))
+        (number "4" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+
+
+  (symbol "KH-SMA-K513-G_C411575"
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "U"
+      (id 0)
+      (at 0 7.62 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Value"
+      "KH-SMA-K513-G"
+      (id 1)
+      (at 0 -15.24 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Footprint"
+      "EasyEDA:KH-SMA-K513-G_C411575"
+      (id 2)
+      (at 0 -17.78 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Datasheet"
+      "https://lcsc.com/product-detail/RF-Connectors-Coaxial-Connectors_Shenzhen-Kinghelm-Elec-KH-SMA-K513-G_C411575.html"
+      (id 3)
+      (at 0 -20.32 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Description"
+      "KH-SMA-K513-G ANT-TH_KH-SMA-K513-G"
+      (id 4)
+      (at 0 -22.86 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "LCSC Part"
+      "C411575"
+      (id 5)
+      (at 0 -25.40 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (symbol "KH-SMA-K513-G_C411575_0_1"
+      (rectangle
+        (start -7.62 5.08)
+        (end 7.62 -5.08)
+        (stroke (width 0.2540) (type default))
+        (fill (type background))
+      )
+      (pin passive line
+        (at -12.70 -0.00 0)
+        (length 5.08)
+        (name "GND" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line
+        (at -12.70 2.54 0)
+        (length 5.08)
+        (name "GND" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line
+        (at 12.70 2.54 180)
+        (length 5.08)
+        (name "GND" (effects (font (size 1.27 1.27))))
+        (number "3" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line
+        (at 12.70 -0.00 180)
+        (length 5.08)
+        (name "GND" (effects (font (size 1.27 1.27))))
+        (number "4" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line
+        (at 0.00 -10.16 90)
+        (length 5.08)
+        (name "IN" (effects (font (size 1.27 1.27))))
+        (number "5" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+
+
+  (symbol "DSHP02TSGER_C3293142"
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "U"
+      (id 0)
+      (at 0 12.70 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Value"
+      "DSHP02TSGER"
+      (id 1)
+      (at 0 -12.70 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Footprint"
+      "EasyEDA:DSHP02TSGER_C3293142"
+      (id 2)
+      (at 0 -15.24 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Datasheet"
+      "https://item.szlcsc.com/datasheet/DSHP02TSGER/3856577.html"
+      (id 3)
+      (at 0 -17.78 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Description"
+      "DSHP02TSGER SW-SMD_DSHP02TSGER"
+      (id 4)
+      (at 0 -20.32 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "LCSC Part"
+      "C3293142"
+      (id 5)
+      (at 0 -22.86 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (symbol "DSHP02TSGER_C3293142_0_1"
+      (rectangle
+        (start -5.08 5.08)
+        (end 2.54 -5.08)
+        (stroke (width 0.2540) (type default))
+        (fill (type background))
+      )
+    (polyline
+      (pts
+        (xy 0.0000 2.5400)
+        (xy -1.0160 -0.2540)
+      )
+      (stroke (width 0.2540) (type default))
+      (fill (type none))
+    )
+    (polyline
+      (pts
+        (xy -2.5400 2.5400)
+        (xy -3.5560 -0.2540)
+      )
+      (stroke (width 0.2540) (type default))
+      (fill (type none))
+    )
+    (polyline
+      (pts
+        (xy 0.0000 -2.5400)
+        (xy 0.0000 0.0000)
+      )
+      (stroke (width 0.2540) (type default))
+      (fill (type none))
+    )
+    (polyline
+      (pts
+        (xy -2.5400 -2.5400)
+        (xy -2.5400 0.0000)
+      )
+      (stroke (width 0.2540) (type default))
+      (fill (type none))
+    )
+    (polyline
+      (pts
+        (xy 0.0000 -2.5400)
+        (xy 0.0000 -5.0800)
+      )
+      (stroke (width 0.2540) (type default))
+      (fill (type none))
+    )
+    (polyline
+      (pts
+        (xy -2.5400 -2.5400)
+        (xy -2.5400 -5.0800)
+      )
+      (stroke (width 0.2540) (type default))
+      (fill (type none))
+    )
+    (polyline
+      (pts
+        (xy 0.0000 5.0800)
+        (xy 0.0000 2.5400)
+      )
+      (stroke (width 0.2540) (type default))
+      (fill (type none))
+    )
+    (polyline
+      (pts
+        (xy -2.5400 5.0800)
+        (xy -2.5400 2.5400)
+      )
+      (stroke (width 0.2540) (type default))
+      (fill (type none))
+    )
+      (pin passive line
+        (at -2.54 -7.62 90)
+        (length 2.54)
+        (name "1" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line
+        (at 0.00 -7.62 90)
+        (length 2.54)
+        (name "2" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line
+        (at 0.00 7.62 270)
+        (length 2.54)
+        (name "3" (effects (font (size 1.27 1.27))))
+        (number "3" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line
+        (at -2.54 7.62 270)
+        (length 2.54)
+        (name "4" (effects (font (size 1.27 1.27))))
+        (number "4" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+
+
+  (symbol "OPA320AIDBVR_C92494"
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "U"
+      (id 0)
+      (at 0 15.24 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Value"
+      "OPA320AIDBVR"
+      (id 1)
+      (at 0 -15.24 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Footprint"
+      "EasyEDA:OPA320AIDBVR_C92494"
+      (id 2)
+      (at 0 -17.78 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Datasheet"
+      "https://lcsc.com/product-detail/Precision-OpAmps_TI_OPA320AIDBVR_OPA320AIDBVR_C92494.html"
+      (id 3)
+      (at 0 -20.32 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Description"
+      "OPA320AIDBVR SOT-23-5_L3.0-W1.7-P0.95-LS2.8-BR"
+      (id 4)
+      (at 0 -22.86 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "LCSC Part"
+      "C92494"
+      (id 5)
+      (at 0 -25.40 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (symbol "OPA320AIDBVR_C92494_0_1"
+    (polyline
+      (pts
+        (xy -5.0800 -5.0800)
+        (xy 5.0800 0.0000)
+        (xy -5.0800 5.0800)
+        (xy -5.0800 -5.0800)
+      )
+      (stroke (width 0.2540) (type default))
+      (fill (type none))
+    )
+    (polyline
+      (pts
+        (xy -4.0640 2.5400)
+        (xy -2.5400 2.5400)
+      )
+      (stroke (width 0.2540) (type default))
+      (fill (type none))
+    )
+    (polyline
+      (pts
+        (xy -4.0640 -2.5400)
+        (xy -2.5400 -2.5400)
+      )
+      (stroke (width 0.2540) (type default))
+      (fill (type none))
+    )
+    (polyline
+      (pts
+        (xy -3.3020 -1.7780)
+        (xy -3.3020 -3.3020)
+      )
+      (stroke (width 0.2540) (type default))
+      (fill (type none))
+    )
+    (polyline
+      (pts
+        (xy 0.0000 5.0800)
+        (xy 0.0000 2.5400)
+      )
+      (stroke (width 0.2540) (type default))
+      (fill (type none))
+    )
+    (polyline
+      (pts
+        (xy 0.0000 -2.5400)
+        (xy 0.0000 -5.0800)
+      )
+      (stroke (width 0.2540) (type default))
+      (fill (type none))
+    )
+      (pin passive line
+        (at 10.16 -0.00 180)
+        (length 5.08)
+        (name "OUT" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line
+        (at 0.00 -10.16 90)
+        (length 5.08)
+        (name "V-" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line
+        (at -10.16 -2.54 0)
+        (length 5.08)
+        (name "IN+" (effects (font (size 1.27 1.27))))
+        (number "3" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line
+        (at -10.16 2.54 0)
+        (length 5.08)
+        (name "IN-" (effects (font (size 1.27 1.27))))
+        (number "4" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line
+        (at 0.00 10.16 270)
+        (length 5.08)
+        (name "V+" (effects (font (size 1.27 1.27))))
+        (number "5" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+
+
+  (symbol "TS-1088R-02026_C455280"
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "U"
+      (id 0)
+      (at 0 5.08 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Value"
+      "TS-1088R-02026"
+      (id 1)
+      (at 0 -5.08 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Footprint"
+      "EasyEDA:TS-1088R-02026_C455280"
+      (id 2)
+      (at 0 -7.62 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Datasheet"
+      "https://lcsc.com/product-detail/New-Arrivals_XUNPU-TS-1088R-02026_C455280.html"
+      (id 3)
+      (at 0 -10.16 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Description"
+      "TS-1088R-02026 SW-SMD_L3.9-W3.0-P4.45"
+      (id 4)
+      (at 0 -12.70 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "LCSC Part"
+      "C455280"
+      (id 5)
+      (at 0 -15.24 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (symbol "TS-1088R-02026_C455280_0_1"
+      (circle
+        (center 1.52 0.00)
+        (radius 0.38)
+        (stroke (width 0.2540) (type default))
+        (fill (type none))
+      )
+      (circle
+        (center -1.52 0.00)
+        (radius 0.38)
+        (stroke (width 0.2540) (type default))
+        (fill (type none))
+      )
+    (polyline
+      (pts
+        (xy -1.5240 0.5080)
+        (xy 1.5240 1.7780)
+      )
+      (stroke (width 0.2540) (type default))
+      (fill (type none))
+    )
+    (polyline
+      (pts
+        (xy -2.0320 0.0000)
+        (xy -2.5400 0.0000)
+      )
+      (stroke (width 0.2540) (type default))
+      (fill (type none))
+    )
+    (polyline
+      (pts
+        (xy 2.0320 0.0000)
+        (xy 2.5400 0.0000)
+      )
+      (stroke (width 0.2540) (type default))
+      (fill (type none))
+    )
+      (pin passive line
+        (at 5.08 -0.00 180)
+        (length 2.54)
+        (name "2" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line
+        (at -5.08 -0.00 0)
+        (length 2.54)
+        (name "1" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+
+
+  (symbol "1_25-5P_WT_C668616"
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "U"
+      (id 0)
+      (at 0 15.24 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Value"
+      "1.25-5P WT"
+      (id 1)
+      (at 0 -13.97 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Footprint"
+      "EasyEDA:1_25-5P_WT_C668616"
+      (id 2)
+      (at 0 -16.51 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Datasheet"
+      "https://lcsc.com/product-detail/Wire-To-Board-Wire-To-Wire-Connector_SHOU-HAN-1-25-5P-WT_C668616.html"
+      (id 3)
+      (at 0 -19.05 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Description"
+      "1.25-5P WT CONN-SMD_1.25-5PWT"
+      (id 4)
+      (at 0 -21.59 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "LCSC Part"
+      "C668616"
+      (id 5)
+      (at 0 -24.13 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (symbol "1_25-5P_WT_C668616_0_1"
+      (rectangle
+        (start -1.27 7.62)
+        (end 3.81 -6.35)
+        (stroke (width 0.2540) (type default))
+        (fill (type background))
+      )
+      (circle
+        (center 0.00 6.35)
+        (radius 0.38)
+        (stroke (width 0.2540) (type default))
+        (fill (type background))
+      )
+      (pin passive line
+        (at -3.81 5.08 0)
+        (length 2.54)
+        (name "1" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line
+        (at -3.81 2.54 0)
+        (length 2.54)
+        (name "2" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line
+        (at -3.81 -0.00 0)
+        (length 2.54)
+        (name "3" (effects (font (size 1.27 1.27))))
+        (number "3" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line
+        (at -3.81 -2.54 0)
+        (length 2.54)
+        (name "4" (effects (font (size 1.27 1.27))))
+        (number "4" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line
+        (at -3.81 -5.08 0)
+        (length 2.54)
+        (name "5" (effects (font (size 1.27 1.27))))
+        (number "5" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line
+        (at 2.54 -8.89 90)
+        (length 2.54)
+        (name "6" (effects (font (size 1.27 1.27))))
+        (number "6" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line
+        (at 2.54 10.16 270)
+        (length 2.54)
+        (name "7" (effects (font (size 1.27 1.27))))
+        (number "7" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+
+
+  (symbol "REF3433TIDBVR_C3680602"
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "U"
+      (id 0)
+      (at 0 8.89 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Value"
+      "REF3433TIDBVR"
+      (id 1)
+      (at 0 -8.89 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Footprint"
+      "EasyEDA:REF3433TIDBVR_C3680602"
+      (id 2)
+      (at 0 -11.43 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Datasheet"
+      "https://item.szlcsc.com/datasheet/REF3433TIDBVR/4248405.html"
+      (id 3)
+      (at 0 -13.97 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Description"
+      "REF3433TIDBVR SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BR"
+      (id 4)
+      (at 0 -16.51 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "LCSC Part"
+      "C3680602"
+      (id 5)
+      (at 0 -19.05 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (symbol "REF3433TIDBVR_C3680602_0_1"
+      (rectangle
+        (start -7.62 6.35)
+        (end 7.62 -6.35)
+        (stroke (width 0.2540) (type default))
+        (fill (type background))
+      )
+      (circle
+        (center -6.35 5.08)
+        (radius 0.38)
+        (stroke (width 0.2540) (type default))
+        (fill (type background))
+      )
+      (pin passive line
+        (at -10.16 -2.54 0)
+        (length 2.54)
+        (name "GND" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line
+        (at -10.16 2.54 0)
+        (length 2.54)
+        (name "IN" (effects (font (size 1.27 1.27))))
+        (number "4" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line
+        (at 10.16 1.27 180)
+        (length 2.54)
+        (name "NC" (effects (font (size 1.27 1.27))))
+        (number "5" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line
+        (at 10.16 3.81 180)
+        (length 2.54)
+        (name "VOUT" (effects (font (size 1.27 1.27))))
+        (number "6" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line
+        (at 10.16 -3.81 180)
+        (length 2.54)
+        (name "NC" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line
+        (at 10.16 -1.27 180)
+        (length 2.54)
+        (name "NC" (effects (font (size 1.27 1.27))))
+        (number "3" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+
+
+  (symbol "TPS74401RGWR_C138728"
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "U"
+      (id 0)
+      (at 0 21.59 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Value"
+      "TPS74401RGWR"
+      (id 1)
+      (at 0 -21.59 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Footprint"
+      "EasyEDA:TPS74401RGWR_C138728"
+      (id 2)
+      (at 0 -24.13 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Datasheet"
+      "https://lcsc.com/product-detail/Low-Dropout-Regulators-LDO_TI_TPS74401RGWR_TPS74401RGWR_C138728.html"
+      (id 3)
+      (at 0 -26.67 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Description"
+      "TPS74401RGWR VQFN-20_L5.0-W5.0-P0.65-TL-EP"
+      (id 4)
+      (at 0 -29.21 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "LCSC Part"
+      "C138728"
+      (id 5)
+      (at 0 -31.75 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (symbol "TPS74401RGWR_C138728_0_1"
+      (rectangle
+        (start -7.62 19.05)
+        (end 7.62 -19.05)
+        (stroke (width 0.2540) (type default))
+        (fill (type background))
+      )
+      (pin passive line
+        (at 12.70 8.89 180)
+        (length 5.08)
+        (name "OUT" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line
+        (at -12.70 16.51 0)
+        (length 5.08)
+        (name "IN" (effects (font (size 1.27 1.27))))
+        (number "5" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line
+        (at -12.70 13.97 0)
+        (length 5.08)
+        (name "IN" (effects (font (size 1.27 1.27))))
+        (number "6" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line
+        (at -12.70 11.43 0)
+        (length 5.08)
+        (name "IN" (effects (font (size 1.27 1.27))))
+        (number "7" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line
+        (at -12.70 8.89 0)
+        (length 5.08)
+        (name "IN" (effects (font (size 1.27 1.27))))
+        (number "8" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line
+        (at 12.70 16.51 180)
+        (length 5.08)
+        (name "PG" (effects (font (size 1.27 1.27))))
+        (number "9" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line
+        (at -12.70 -1.27 0)
+        (length 5.08)
+        (name "BIAS" (effects (font (size 1.27 1.27))))
+        (number "10" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line
+        (at -12.70 3.81 0)
+        (length 5.08)
+        (name "EN" (effects (font (size 1.27 1.27))))
+        (number "11" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line
+        (at 12.70 -6.35 180)
+        (length 5.08)
+        (name "GND" (effects (font (size 1.27 1.27))))
+        (number "12" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line
+        (at -12.70 -6.35 0)
+        (length 5.08)
+        (name "SS" (effects (font (size 1.27 1.27))))
+        (number "15" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line
+        (at 12.70 13.97 180)
+        (length 5.08)
+        (name "FB" (effects (font (size 1.27 1.27))))
+        (number "16" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line
+        (at 12.70 6.35 180)
+        (length 5.08)
+        (name "OUT" (effects (font (size 1.27 1.27))))
+        (number "18" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line
+        (at 12.70 3.81 180)
+        (length 5.08)
+        (name "OUT" (effects (font (size 1.27 1.27))))
+        (number "19" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line
+        (at 12.70 1.27 180)
+        (length 5.08)
+        (name "OUT" (effects (font (size 1.27 1.27))))
+        (number "20" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line
+        (at 12.70 -3.81 180)
+        (length 5.08)
+        (name "EP" (effects (font (size 1.27 1.27))))
+        (number "21" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line
+        (at -12.70 -11.43 0)
+        (length 5.08)
+        (name "NC" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line
+        (at -12.70 -13.97 0)
+        (length 5.08)
+        (name "NC" (effects (font (size 1.27 1.27))))
+        (number "3" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line
+        (at -12.70 -16.51 0)
+        (length 5.08)
+        (name "NC" (effects (font (size 1.27 1.27))))
+        (number "4" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line
+        (at 12.70 -11.43 180)
+        (length 5.08)
+        (name "NC" (effects (font (size 1.27 1.27))))
+        (number "13" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line
+        (at 12.70 -13.97 180)
+        (length 5.08)
+        (name "NC" (effects (font (size 1.27 1.27))))
+        (number "14" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line
+        (at 12.70 -16.51 180)
+        (length 5.08)
+        (name "NC" (effects (font (size 1.27 1.27))))
+        (number "17" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+
+
+  (symbol "REF3433IDBVR_C882722"
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "U"
+      (id 0)
+      (at 0 7.62 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Value"
+      "REF3433IDBVR"
+      (id 1)
+      (at 0 -7.62 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Footprint"
+      "EasyEDA:REF3433IDBVR_C882722"
+      (id 2)
+      (at 0 -10.16 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Datasheet"
+      "https://item.szlcsc.com/datasheet/REF3433IDBVR/947126.html"
+      (id 3)
+      (at 0 -12.70 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Description"
+      "REF3433IDBVR TSOT-23-6_L2.9-W1.6-P0.95-LS2.8-TL"
+      (id 4)
+      (at 0 -15.24 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "LCSC Part"
+      "C882722"
+      (id 5)
+      (at 0 -17.78 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (symbol "REF3433IDBVR_C882722_0_1"
+      (rectangle
+        (start -11.43 5.08)
+        (end 11.43 -5.08)
+        (stroke (width 0.2540) (type default))
+        (fill (type background))
+      )
+      (circle
+        (center -10.16 3.81)
+        (radius 0.38)
+        (stroke (width 0.2540) (type default))
+        (fill (type background))
+      )
+      (pin passive line
+        (at -13.97 2.54 0)
+        (length 2.54)
+        (name "GND_F" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line
+        (at -13.97 -0.00 0)
+        (length 2.54)
+        (name "GND_S" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line
+        (at -13.97 -2.54 0)
+        (length 2.54)
+        (name "ENABLE" (effects (font (size 1.27 1.27))))
+        (number "3" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line
+        (at 13.97 -2.54 180)
+        (length 2.54)
+        (name "IN" (effects (font (size 1.27 1.27))))
+        (number "4" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line
+        (at 13.97 -0.00 180)
+        (length 2.54)
+        (name "OUT_S" (effects (font (size 1.27 1.27))))
+        (number "5" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line
+        (at 13.97 2.54 180)
+        (length 2.54)
+        (name "OUT_F" (effects (font (size 1.27 1.27))))
+        (number "6" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+
+
+  (symbol "MX1_25MM-3P-WT_C53055349"
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "U"
+      (id 0)
+      (at 0 12.70 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Value"
+      "MX1.25MM-3P-WT"
+      (id 1)
+      (at 0 -12.70 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Footprint"
+      "EasyEDA:MX1_25MM-3P-WT_C53055349"
+      (id 2)
+      (at 0 -15.24 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Datasheet"
+      "https://item.szlcsc.com/datasheet/MX1.25MM-3P-WT/55999549.html"
+      (id 3)
+      (at 0 -17.78 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Description"
+      "MX1.25MM-3P-WT CONN-SMD_MX1.25MM-3P-WT"
+      (id 4)
+      (at 0 -20.32 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "LCSC Part"
+      "C53055349"
+      (id 5)
+      (at 0 -22.86 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (symbol "MX1_25MM-3P-WT_C53055349_0_1"
+      (rectangle
+        (start -2.54 5.08)
+        (end 5.08 -5.08)
+        (stroke (width 0.2540) (type default))
+        (fill (type background))
+      )
+      (circle
+        (center -1.27 3.81)
+        (radius 0.38)
+        (stroke (width 0.2540) (type default))
+        (fill (type background))
+      )
+      (pin passive line
+        (at -5.08 2.54 0)
+        (length 2.54)
+        (name "1" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line
+        (at -5.08 -0.00 0)
+        (length 2.54)
+        (name "2" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line
+        (at -5.08 -2.54 0)
+        (length 2.54)
+        (name "3" (effects (font (size 1.27 1.27))))
+        (number "3" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line
+        (at 3.81 -7.62 90)
+        (length 2.54)
+        (name "4" (effects (font (size 1.27 1.27))))
+        (number "4" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line
+        (at 3.81 7.62 270)
+        (length 2.54)
+        (name "5" (effects (font (size 1.27 1.27))))
+        (number "5" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+
+
+  (symbol "X6521WV-2X30H-C30D60_C2883964"
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "U"
+      (id 0)
+      (at 0 41.91 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Value"
+      "X6521WV-2X30H-C30D60"
+      (id 1)
+      (at 0 -41.91 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Footprint"
+      "EasyEDA:X6521WV-2X30H-C30D60_C2883964"
+      (id 2)
+      (at 0 -44.45 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Datasheet"
+      "https://item.szlcsc.com/datasheet/X6521WV-2X30H-C30D60/3094456.html"
+      (id 3)
+      (at 0 -46.99 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Description"
+      "X6521WV-2X30H-C30D60 HDR-TH_60P-P2.54-V-M-R2-C30-S2.54"
+      (id 4)
+      (at 0 -49.53 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "LCSC Part"
+      "C2883964"
+      (id 5)
+      (at 0 -52.07 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (symbol "X6521WV-2X30H-C30D60_C2883964_0_1"
+      (rectangle
+        (start -5.08 39.37)
+        (end 5.08 -39.37)
+        (stroke (width 0.2540) (type default))
+        (fill (type background))
+      )
+      (circle
+        (center -3.81 38.10)
+        (radius 0.38)
+        (stroke (width 0.2540) (type default))
+        (fill (type background))
+      )
+      (pin passive line
+        (at -7.62 36.83 0)
+        (length 2.54)
+        (name "1" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line
+        (at 7.62 -36.83 180)
+        (length 2.54)
+        (name "60" (effects (font (size 1.27 1.27))))
+        (number "60" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line
+        (at -7.62 34.29 0)
+        (length 2.54)
+        (name "3" (effects (font (size 1.27 1.27))))
+        (number "3" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line
+        (at 7.62 -34.29 180)
+        (length 2.54)
+        (name "58" (effects (font (size 1.27 1.27))))
+        (number "58" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line
+        (at -7.62 31.75 0)
+        (length 2.54)
+        (name "5" (effects (font (size 1.27 1.27))))
+        (number "5" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line
+        (at 7.62 -31.75 180)
+        (length 2.54)
+        (name "56" (effects (font (size 1.27 1.27))))
+        (number "56" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line
+        (at -7.62 29.21 0)
+        (length 2.54)
+        (name "7" (effects (font (size 1.27 1.27))))
+        (number "7" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line
+        (at 7.62 -29.21 180)
+        (length 2.54)
+        (name "54" (effects (font (size 1.27 1.27))))
+        (number "54" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line
+        (at -7.62 26.67 0)
+        (length 2.54)
+        (name "9" (effects (font (size 1.27 1.27))))
+        (number "9" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line
+        (at 7.62 -26.67 180)
+        (length 2.54)
+        (name "52" (effects (font (size 1.27 1.27))))
+        (number "52" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line
+        (at -7.62 24.13 0)
+        (length 2.54)
+        (name "11" (effects (font (size 1.27 1.27))))
+        (number "11" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line
+        (at 7.62 -24.13 180)
+        (length 2.54)
+        (name "50" (effects (font (size 1.27 1.27))))
+        (number "50" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line
+        (at -7.62 21.59 0)
+        (length 2.54)
+        (name "13" (effects (font (size 1.27 1.27))))
+        (number "13" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line
+        (at 7.62 -21.59 180)
+        (length 2.54)
+        (name "48" (effects (font (size 1.27 1.27))))
+        (number "48" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line
+        (at -7.62 19.05 0)
+        (length 2.54)
+        (name "15" (effects (font (size 1.27 1.27))))
+        (number "15" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line
+        (at 7.62 -19.05 180)
+        (length 2.54)
+        (name "46" (effects (font (size 1.27 1.27))))
+        (number "46" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line
+        (at -7.62 16.51 0)
+        (length 2.54)
+        (name "17" (effects (font (size 1.27 1.27))))
+        (number "17" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line
+        (at 7.62 -16.51 180)
+        (length 2.54)
+        (name "44" (effects (font (size 1.27 1.27))))
+        (number "44" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line
+        (at -7.62 13.97 0)
+        (length 2.54)
+        (name "19" (effects (font (size 1.27 1.27))))
+        (number "19" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line
+        (at 7.62 -13.97 180)
+        (length 2.54)
+        (name "42" (effects (font (size 1.27 1.27))))
+        (number "42" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line
+        (at -7.62 11.43 0)
+        (length 2.54)
+        (name "21" (effects (font (size 1.27 1.27))))
+        (number "21" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line
+        (at 7.62 -11.43 180)
+        (length 2.54)
+        (name "40" (effects (font (size 1.27 1.27))))
+        (number "40" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line
+        (at -7.62 8.89 0)
+        (length 2.54)
+        (name "23" (effects (font (size 1.27 1.27))))
+        (number "23" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line
+        (at 7.62 -8.89 180)
+        (length 2.54)
+        (name "38" (effects (font (size 1.27 1.27))))
+        (number "38" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line
+        (at -7.62 6.35 0)
+        (length 2.54)
+        (name "25" (effects (font (size 1.27 1.27))))
+        (number "25" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line
+        (at 7.62 -6.35 180)
+        (length 2.54)
+        (name "36" (effects (font (size 1.27 1.27))))
+        (number "36" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line
+        (at -7.62 3.81 0)
+        (length 2.54)
+        (name "27" (effects (font (size 1.27 1.27))))
+        (number "27" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line
+        (at 7.62 -3.81 180)
+        (length 2.54)
+        (name "34" (effects (font (size 1.27 1.27))))
+        (number "34" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line
+        (at -7.62 1.27 0)
+        (length 2.54)
+        (name "29" (effects (font (size 1.27 1.27))))
+        (number "29" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line
+        (at 7.62 -1.27 180)
+        (length 2.54)
+        (name "32" (effects (font (size 1.27 1.27))))
+        (number "32" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line
+        (at -7.62 -1.27 0)
+        (length 2.54)
+        (name "31" (effects (font (size 1.27 1.27))))
+        (number "31" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line
+        (at 7.62 1.27 180)
+        (length 2.54)
+        (name "30" (effects (font (size 1.27 1.27))))
+        (number "30" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line
+        (at -7.62 -3.81 0)
+        (length 2.54)
+        (name "33" (effects (font (size 1.27 1.27))))
+        (number "33" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line
+        (at 7.62 3.81 180)
+        (length 2.54)
+        (name "28" (effects (font (size 1.27 1.27))))
+        (number "28" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line
+        (at -7.62 -6.35 0)
+        (length 2.54)
+        (name "35" (effects (font (size 1.27 1.27))))
+        (number "35" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line
+        (at 7.62 6.35 180)
+        (length 2.54)
+        (name "26" (effects (font (size 1.27 1.27))))
+        (number "26" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line
+        (at -7.62 -8.89 0)
+        (length 2.54)
+        (name "37" (effects (font (size 1.27 1.27))))
+        (number "37" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line
+        (at 7.62 8.89 180)
+        (length 2.54)
+        (name "24" (effects (font (size 1.27 1.27))))
+        (number "24" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line
+        (at -7.62 -11.43 0)
+        (length 2.54)
+        (name "39" (effects (font (size 1.27 1.27))))
+        (number "39" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line
+        (at 7.62 11.43 180)
+        (length 2.54)
+        (name "22" (effects (font (size 1.27 1.27))))
+        (number "22" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line
+        (at -7.62 -13.97 0)
+        (length 2.54)
+        (name "41" (effects (font (size 1.27 1.27))))
+        (number "41" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line
+        (at 7.62 13.97 180)
+        (length 2.54)
+        (name "20" (effects (font (size 1.27 1.27))))
+        (number "20" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line
+        (at -7.62 -16.51 0)
+        (length 2.54)
+        (name "43" (effects (font (size 1.27 1.27))))
+        (number "43" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line
+        (at 7.62 16.51 180)
+        (length 2.54)
+        (name "18" (effects (font (size 1.27 1.27))))
+        (number "18" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line
+        (at -7.62 -19.05 0)
+        (length 2.54)
+        (name "45" (effects (font (size 1.27 1.27))))
+        (number "45" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line
+        (at 7.62 19.05 180)
+        (length 2.54)
+        (name "16" (effects (font (size 1.27 1.27))))
+        (number "16" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line
+        (at -7.62 -21.59 0)
+        (length 2.54)
+        (name "47" (effects (font (size 1.27 1.27))))
+        (number "47" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line
+        (at 7.62 21.59 180)
+        (length 2.54)
+        (name "14" (effects (font (size 1.27 1.27))))
+        (number "14" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line
+        (at -7.62 -24.13 0)
+        (length 2.54)
+        (name "49" (effects (font (size 1.27 1.27))))
+        (number "49" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line
+        (at 7.62 24.13 180)
+        (length 2.54)
+        (name "12" (effects (font (size 1.27 1.27))))
+        (number "12" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line
+        (at -7.62 -26.67 0)
+        (length 2.54)
+        (name "51" (effects (font (size 1.27 1.27))))
+        (number "51" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line
+        (at 7.62 26.67 180)
+        (length 2.54)
+        (name "10" (effects (font (size 1.27 1.27))))
+        (number "10" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line
+        (at -7.62 -29.21 0)
+        (length 2.54)
+        (name "53" (effects (font (size 1.27 1.27))))
+        (number "53" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line
+        (at 7.62 29.21 180)
+        (length 2.54)
+        (name "8" (effects (font (size 1.27 1.27))))
+        (number "8" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line
+        (at -7.62 -31.75 0)
+        (length 2.54)
+        (name "55" (effects (font (size 1.27 1.27))))
+        (number "55" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line
+        (at 7.62 31.75 180)
+        (length 2.54)
+        (name "6" (effects (font (size 1.27 1.27))))
+        (number "6" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line
+        (at -7.62 -34.29 0)
+        (length 2.54)
+        (name "57" (effects (font (size 1.27 1.27))))
+        (number "57" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line
+        (at 7.62 34.29 180)
+        (length 2.54)
+        (name "4" (effects (font (size 1.27 1.27))))
+        (number "4" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line
+        (at -7.62 -36.83 0)
+        (length 2.54)
+        (name "59" (effects (font (size 1.27 1.27))))
+        (number "59" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line
+        (at 7.62 36.83 180)
+        (length 2.54)
+        (name "2" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+
+
+  (symbol "TPS7A4901DGNR_C16430"
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "U"
+      (id 0)
+      (at 0 10.16 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Value"
+      "TPS7A4901DGNR"
+      (id 1)
+      (at 0 -10.16 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Footprint"
+      "EasyEDA:TPS7A4901DGNR_C16430"
+      (id 2)
+      (at 0 -12.70 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Datasheet"
+      "https://lcsc.com/product-detail/Low-Dropout-Regulators-LDO_TI_TPS7A4901DGNR_TPS7A4901DGNR_C16430.html"
+      (id 3)
+      (at 0 -15.24 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Description"
+      "Single Output High PSRR LDO, 150 mA, Adjustable 1.2 to 33 V Output, 3 to 36 V Input, with Ultra-Low Noise, 8-pin MSOP (DGN), -40 to 125 degC, Green (RoHS  no SbBr)"
+      (id 4)
+      (at 0 -17.78 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "LCSC Part"
+      "C16430"
+      (id 5)
+      (at 0 -20.32 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (symbol "TPS7A4901DGNR_C16430_0_1"
+      (rectangle
+        (start -8.89 7.62)
+        (end 8.89 -7.62)
+        (stroke (width 0.2540) (type default))
+        (fill (type background))
+      )
+      (circle
+        (center -7.62 6.35)
+        (radius 0.38)
+        (stroke (width 0.2540) (type default))
+        (fill (type background))
+      )
+      (pin passive line
+        (at -11.43 2.54 0)
+        (length 2.54)
+        (name "OUT" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line
+        (at -11.43 -0.00 0)
+        (length 2.54)
+        (name "FB" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line
+        (at -11.43 -2.54 0)
+        (length 2.54)
+        (name "NC" (effects (font (size 1.27 1.27))))
+        (number "3" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line
+        (at -11.43 -5.08 0)
+        (length 2.54)
+        (name "GND" (effects (font (size 1.27 1.27))))
+        (number "4" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line
+        (at 11.43 -5.08 180)
+        (length 2.54)
+        (name "EN" (effects (font (size 1.27 1.27))))
+        (number "5" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line
+        (at 11.43 -2.54 180)
+        (length 2.54)
+        (name "NR/SS" (effects (font (size 1.27 1.27))))
+        (number "6" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line
+        (at 11.43 -0.00 180)
+        (length 2.54)
+        (name "DNC" (effects (font (size 1.27 1.27))))
+        (number "7" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line
+        (at 11.43 2.54 180)
+        (length 2.54)
+        (name "IN" (effects (font (size 1.27 1.27))))
+        (number "8" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line
+        (at 11.43 5.08 180)
+        (length 2.54)
+        (name "PwPd" (effects (font (size 1.27 1.27))))
+        (number "9" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+
+)

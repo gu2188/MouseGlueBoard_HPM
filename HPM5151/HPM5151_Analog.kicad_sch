@@ -1,0 +1,198 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "8ed38441-7d4e-4e89-870f-07e11c6dce38")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 72.39 115.57)
+		(size 44.45 43.18)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "4d2222a3-5a6a-40ae-9bd9-2f94da79aa98")
+		(property "Sheetname" "CONNECTOR"
+			(at 72.39 114.8584 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "CONNECTOR.kicad_sch"
+			(at 72.39 159.3346 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "HPM5151_Analog"
+				(path "/8ed38441-7d4e-4e89-870f-07e11c6dce38"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 95.25 49.53)
+		(size 36.83 27.94)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "946677b4-b331-4cd1-a1f5-7477d23b43d3")
+		(property "Sheetname" "POWER"
+			(at 95.25 48.8184 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "POWER.kicad_sch"
+			(at 95.25 78.0546 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "HPM5151_Analog"
+				(path "/8ed38441-7d4e-4e89-870f-07e11c6dce38"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 153.67 52.07)
+		(size 41.91 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "d51d1b12-e76a-4a13-bae9-b55580ac6089")
+		(property "Sheetname" "MCU-PA-PY"
+			(at 153.67 51.3584 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MCU-PA-PY.kicad_sch"
+			(at 153.67 78.0546 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "HPM5151_Analog"
+				(path "/8ed38441-7d4e-4e89-870f-07e11c6dce38"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 152.4 91.44)
+		(size 64.77 26.67)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "e86d4e56-1f53-40e2-8d1b-d1ddeb3d4ca3")
+		(property "Sheetname" "MCU-PB-PC"
+			(at 152.4 90.7284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MCU-PB-PC.kicad_sch"
+			(at 152.4 118.6946 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "HPM5151_Analog"
+				(path "/8ed38441-7d4e-4e89-870f-07e11c6dce38"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
