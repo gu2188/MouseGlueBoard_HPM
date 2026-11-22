@@ -7,3 +7,5 @@
 !*-table
 !lib
 !lib/**
+!EasyEDA_Lib
+!EasyEDA_Lib/*.elibz
